@@ -27,10 +27,10 @@
 
         <header>
         	<h1><span class="header_logo">MJC</span> Marc Jones Consulting, LLC</h1>
-        coreboot™ &nbsp;&nbsp;&nbsp;&nbsp; Chrome OS™ &nbsp;&nbsp;&nbsp;&nbsp; Open Source Firmware
+          <h2>coreboot™ &nbsp;&nbsp;&nbsp;&nbsp; Chrome OS™ &nbsp;&nbsp;&nbsp;&nbsp; Open Source Firmware</h2>
           {% if page.title %}
-          <h2>{{ page.title | default: site.title | default: }}</h2>
-          <h3>{{ page.description | default: site.description | default: }}</h3>
+          <h2>{{ page.title | default: site.title | default: ""}}</h2>
+          <h3>{{ page.description | default: site.description | default: ""}}</h3>
           {% endif %}
         </header>
 
