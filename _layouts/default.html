@@ -8,7 +8,6 @@
     <meta name="description" content="{{ site.description }}" />
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
-    <link rel="stylesheet" type="text/css" href="web.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/iconize/iconize.css" />
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
@@ -27,14 +26,15 @@
         <div class="inner">
 
             <header>
-                <h1><span class="header_logo">MJC</span> Marc Jones Consulting, LLC</h1>
+                <h1><span class="header_logo">MJC</span></h1>
+                <h1> Marc Jones Consulting, LLC</h1>
                 <h2>coreboot™ &nbsp;&nbsp;&nbsp;&nbsp; Chrome OS™ &nbsp;&nbsp;&nbsp;&nbsp; Open Source Firmware</h2>
                 {% if page.title %}
                 <h2>{{ page.title | default: site.title | default: ""}}</h2>
                 <h3>{{ page.description | default: site.description | default: ""}}</h3>
                 {% endif %}
             </header>
-
+            <hr>
             <nav>
                 <a href="#">Home</a> |
                 <a href="#news">News</a> |
@@ -42,7 +42,7 @@
                 <a href="#papers">Publications</a> |
                 <a href="./contact.php">Contact</a>
             </nav>
-
+            <hr>
             <section id="main_content">
                 {{ content }}
             </section>

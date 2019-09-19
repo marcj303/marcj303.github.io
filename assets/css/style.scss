@@ -1,0 +1,71 @@
+---
+---
+
+@import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css?family=Cardo:400i&display=swap');
+
+/* # Style overrides */
+.inner {width: 700px; margin: 0 auto;}
+
+blockquote {
+	padding: 10px;
+	border: 2px dotted #CAC6BF;
+	text-align: center;
+	font-style: italic;
+	font-family: 'Cardo', serif;
+	font-size: 1.1em
+}
+
+ul {
+	padding-inline-start: 40px;
+}
+
+/* # MJC additions */
+.header_logo {
+	font-size: 2.5em;
+	padding-right: 50px;
+	color: #F59D00;
+}
+nav {
+	clear:both;
+	padding: 0px 10px 0px 10px;
+	margin: 20px;
+	word-spacing: 10px;
+	text-align: center;
+	font-size: 1em;
+}
+#ohloh{
+	clear: right;
+	float: right;
+	width: 280px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 0.8em;
+	text-align: center;
+	margin: 0px 20px 20px 20px;
+}
+#linkedin{
+	clear: right;
+	float: right;
+	width: 280px;
+	margin: 0px 20px 20px 20px;
+}
+#core_logo{
+	float: right;
+	width: 140px;
+	height: 110px;
+	margin: 0px 10px 20px 10px;
+}
+section.sub_sec{
+	margin: 10px 10px 20px 10px;
+	padding: 5px 10px 20px 10px;
+	background-color: #EFEDE9;
+	border: 1px solid #FFFFFF;
+}
+
+.end_quote{
+	text-align: right;
+	margin-right: 20px;
+	font-style: normal;
+	font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+}
+ul.none{list-style-type:none}
