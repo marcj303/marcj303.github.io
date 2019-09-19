@@ -16,7 +16,7 @@
 title: Marc Jones Consulting
 email: info@marcjonesconsulting.com
 description: >- # this means to ignore newlines until "baseurl:"
-  coreboot™ &nbsp;&nbsp;&nbsp;&nbsp; Chrome OS™ &nbsp;&nbsp;&nbsp;&nbsp; Open Source Firmware
+  MJC specializes in coreboot™, Chrome OS™, Open Source firmware development, and embedded device technical consultation.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
