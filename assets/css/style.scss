@@ -77,3 +77,17 @@ section.sub_sec{
 	font-style: normal;
 	font-family: 'Helvetica Neue', Helvetica, Arial, serif;
 }
+ul.contactform {
+	padding: 0;
+	margin: 0;
+}
+ul.contactform  li{
+	list-style-type:none;
+}
+ul.contactform  input{
+	margin-bottom: 10px;
+}
+ul.contactform  textarea {
+	width: 90%;
+	margin-bottom: 10px;
+}
