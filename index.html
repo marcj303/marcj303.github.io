@@ -74,17 +74,17 @@ layout: default
 			{% comment %} https://blog.webjeda.com/google-form-customize/ {% endcomment %}
 			<form action="https://docs.google.com/forms/d/e/1FAIpQLSfflRXyfoL-GTYyp5YbMMgoRgTIyxV0okKMyJnlfWYIJdzZaQ/formResponse" target="_self" method="POST" id="mG61Hd">
 				<ul class="contactform">
-					<li><label>Name </label></li>
-					<li><input type="text" name="entry.557104717" value="" required=""></li>
+					<li><label for="field-name">Name </label></li>
+					<li><input id="field-name" type="text" name="entry.557104717" value="" required=""></li>
 
-					<li><label>Email </label></li>
-					<li><input type="email" name="entry.1502512851" value="" required=""></li>
+					<li><label for="field-email">Email </label></li>
+					<li><input id="field-email" type="email" name="entry.1502512851" value="" required=""></li>
 
-					<li><label>Comment </label></li>
-					<li><textarea required="" name="entry.1045323391"></textarea></li>
+					<li><label for="field-comment">Comment </label></li>
+					<li><textarea id="field-comment" required="" name="entry.1045323391"></textarea></li>
 
-					<li><label>What is the eighth word of this sentence? </label></li>
-					<li><textarea required="" name="entry.2015573827"></textarea></li>
+					<li><label for="field-captcha">What is the eighth word of this sentence? </label></li>
+					<li><textarea id="field-captcha" required="" name="entry.2015573827"></textarea></li>
 
 					<li class="button"><input type="submit" value="Send" /></li>
 				</ul>
